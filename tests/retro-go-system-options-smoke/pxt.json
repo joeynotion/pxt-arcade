@@ -1,0 +1,17 @@
+{
+    "name": "retro-go-system-options-smoke",
+    "description": "Retro-Go system options button-driven smoke",
+    "dependencies": {
+        "device": "file:../../libs/device",
+        "hw---retro-go": "file:../../libs/hw---retro-go"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "preferredEditor": "tsprj",
+    "retroGo": {
+        "title": "Retro-Go System Options Smoke",
+        "diagnosticVersion": "RGSO-0.1"
+    }
+}

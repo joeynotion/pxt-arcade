@@ -15,3 +15,6 @@ package-lock.json
 *.code-workspace
 *.DS_STORE
 .pxt/
+
+# Local bridge/corpus workbench content; used for validation, not for upstreaming
+tests/gallery-corpus/

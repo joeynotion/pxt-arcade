@@ -1,0 +1,30 @@
+{
+    "name": "hw---retro-go",
+    "description": "Retro-Go",
+    "files": [
+        "sdlmain.cpp",
+        "config.ts",
+        "enums.d.ts",
+        "shims.d.ts",
+        "device.d.ts"
+    ],
+    "card": {
+        "name": "Retro-Go",
+        "description": "Retro-Go launcher export (.uf2 ROM)",
+        "learnMoreUrl": "https://arcade.makecode.com/hardware",
+        "cardType": "hw"
+    },
+    "compileServiceVariant": "vm",
+    "dependencies": {
+        "core---vm": "file:../core---vm",
+        "controller---none": "file:../controller---none",
+        "mixer---ext": "file:../mixer---ext",
+        "screen---ext": "file:../screen---ext",
+        "settings---files": "file:../settings---files",
+        "game": "file:../game"
+    },
+    "additionalFilePath": "../hw---vm",
+    "public": true,
+    "skipLocalization": true,
+    "experimentalHw": true
+}
